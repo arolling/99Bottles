@@ -1,0 +1,7 @@
+pairs:
+  # <initials>: <Firstname> <Lastname>
+  al: Alex Larson
+  sp: Sean Peerenboom
+email_addresses:
+  al: alex.m.larson@gmail.com
+  sp: seanmp42@gmail.com 
