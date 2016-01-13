@@ -1,12 +1,18 @@
-.starwars {
+.oldm {
   display: none;
 }
-.startrek {
+.youngm {
+  display: none;
+}.oldw {
+  display: none;
+}.youngw {
+  display: none;
+}.oldo {
+  display: none;
+}.youngo {
   display: none;
 }
-.lordoftherings {
-  display: none;
-}
-.fail {
-  display: none;
+
+.red {
+  border: 1px solid red;
 }
