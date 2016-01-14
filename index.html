@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Which little known british loyalty are you!</title>
+    <title>99 bottles of dubstep</title>
     <link rel="stylesheet" href="css/styles.css" media="screen">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   </head>
   <body>
     <div class="container">
-    <h1>Choose your british Lord name!(Based on arbitrary questions.)</h1>
-    <p> By providing us with the following names we can determine, British Lord you would be.
-    </p>
     <form id="hogwarts">
-      <label for="age">Age</label>
-      <input id="age" type="text">
-      <label for="gender">Gender</label>
-      <select id="gender">
-        <option value="female">Female</option>
-        <option value="male">Male</option>
-        <option value="other">Assigning gender is an arbitrary concept that should be phased out in modern society.</option>
-      </select>
+        <label for="age">Bottle Number</label>
+        <input id="age" type="text">
+        <!-- <label for="age2">Second Bottle</label>
+        <input id="age2" type="text">
+        <label for="age3">Bottle Number3</label>
+        <input id="age3" type="text"> -->
+        <label for="music">Music Selection</label>
+        <select class = "form-control" id="music">
+          <option id = "classical1" value="classical">Classical</option>
+          <option id = "hiphop1" value="hiphop">Hip Hope <option>
+          <option id = "country1" value="country">Country</option>
+          <option id = "celine1" value="celine">Celine Deon</option>
+        </select>
 
-      <button type="submit" class="btn">Gain admitance to Hogwarts!</button>
-    </form>
-    <div class="wu">
-    <h1 class="oldm">Felix Pickles</h1>
-    <h1 class="youngm">Pip Torrens</h1>
-    <h1 class="oldw">Eunice Montjoy</h1>
-    <h1 class="youngw">Mia Fothergill</h1>
-    <h1 class="oldo">Imogen Millais-Scott</h1>
-    <h1 class="youngo">Alf Tramontin</h1>
-  </div>
+        <button type="submit" class="btn">Begin the exerpeince</button>
+      </form>
+      <ul id="troy">
 
+      </ul>
     </div>
+
+    <iframe id = "classicalIframe" width="420" height="315" src="https://www.youtube.com/embed/_mVW8tgGY_w" frameborder="0" ></iframe>
+
+    <iframe id = "hiphopeIframe" width="420" height="315" src="https://www.youtube.com/embed/qfab2CJ64mk" frameborder="0" ></iframe>
+
+    <iframe id = "countryIframe" width="420" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" ></iframe>
+    <iframe id = "celineIframe" width="420" height="315" src="https://www.youtube.com/embed/Q2UO0-pE9T4" frameborder="0" ></iframe>
+
   </body>
   <script src="js/jquery-1.12.0.js"></script>
   <script src="js/scripts.js"></script>

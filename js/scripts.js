@@ -1,32 +1,32 @@
 $(document).ready(function() {
-
 $("form#hogwarts").submit(function(event) {
 
-var age = parseInt($("input#age").val());
-var gender = $("select#gender").val();
-
-$(".wu h1").hide()
-
-
-if (age>=50 && gender==='male') {
-$('.oldm').show()
-} else if (age<50 && gender ==='male') {
-  $('.youngm').show()
-} else if (age>=50 && gender==="female"){
-  $('.oldw').show()
-} else if (age<50 && gender ==='female') {
-  $('.youngw').show()
-} else if (age>=50 && gender==='other'){
-  $('.oldo').show()
-} else if (age <50 && gender ==='other') {
-  $('.youngo').show()
-
+var whistle =$("input#age").val();
+for (i=1; i<=whistle; i++){
+  $("#troy").prepend("<p>" + i +" Bottles of beer on the wall " + i + " bottles of beer, take one down pass it around " + (i-1) + " bottles of beer on the wall");
 }
-$("#age").empty(
-  $("#age").addClass("red"),
-alert('Please enter your age.') );
+
+
+var classicalVar = $("#classical1").val()
+if(classicalVar === "classical") {
+  $("#classicalIframe").show();
+}
+var hiphopVar = $("#hiphop1").val()
+if(hiphopVar === "hiphop") {
+  $("#hiphopeIframe").show();
+}
+var countryVar = $("#country1").val()
+if(countryVar === "country") {
+  $("#countryIframe").show();
+}var celineVar = $("#celine1").val()
+if(celineVar === "celine") {
+  $("#celineIframe").show();
+}
+
 event.preventDefault();
 
+
 });
+
 
 });
