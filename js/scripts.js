@@ -1,9 +1,10 @@
 $(document).ready(function() {
 $("form#hogwarts").submit(function(event) {
 
+$("#troy").text = "";
 var whistle =$("input#age").val();
 for (i=1; i<=whistle; i++){
-  $("#troy").prepend("<p>" + i +" Bottles of beer on the wall " + i + " bottles of beer, take one down pass it around " + (i-1) + " bottles of beer on the wall");
+  $("#troy").prepend("<p>" + i +" Bottles of beer on the wall " + i + " bottles of beer, take one down pass it around " + (i-1) + " bottles of beer on the wall</p>");
 }
 
 
