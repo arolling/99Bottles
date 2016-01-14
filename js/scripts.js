@@ -10,17 +10,23 @@ for (i=1; i<=whistle; i++){
 
 
 var classicalVar = $("#classical1").val()
+
 if(classicalVar === "classical") {
   $("#classicalIframe").show();
 }
+
 var hiphopVar = $("#hiphop1").val()
+
 if(hiphopVar === "hiphop") {
   $("#hiphopeIframe").show();
 }
+
 var countryVar = $("#country1").val()
 if(countryVar === "country") {
   $("#countryIframe").show();
-}var celineVar = $("#celine1").val()
+}
+
+var celineVar = $("#celine1").val()
 if(celineVar === "celine") {
   $("#celineIframe").show();
 }

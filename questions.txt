@@ -1,0 +1,20 @@
+Is the Github documentation - commits and README - thorough and descriptive?
+-No readme (we missed this too)
+Is the code easy to read (good indentation, spacing, naming)?
+-Indentation a little inconsistent, especially in .js
+
+Were branching and looping used effectively?
+Yes, good job!
+
+Is the web page(s) styled using Bootstrap and CSS?
+Yes!
+
+Is the site user-friendly?
+-Moderately?
+
+Do you have any additional constructive criticism or positive feedback to share?
+
+-Several typos in the text (low priority)
+-Typo that has an additional blank option. Missing a closed tag
+-When you select an artist, each video appears instead of 1 intended video
+representing that artist (may have to do with multiple variables)
